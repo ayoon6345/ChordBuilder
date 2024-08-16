@@ -1,0 +1,9 @@
+
+.saved{
+    display: flex;
+    margin-left:15%;
+    position: relative;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+
+}

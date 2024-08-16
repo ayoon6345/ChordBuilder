@@ -1,0 +1,173 @@
+
+#chord{
+    display: flex;
+    flex-direction: column; 
+    margin-left:5%;
+    margin-top:5%;
+    padding: 0;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+  #chordBody{
+    display: flex;
+  }
+  #chordName{
+    display: flex;
+    margin:0;
+    position: relative;
+    left: 7.5px;
+  }
+  #chordInput{
+    text-align: center;
+    align-items: center; /* Centexring content vertically */
+    justify-content: center;
+  }
+  .fret{
+    display: flex;
+    margin-top:35px;
+    width: 15px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #fretInput{
+    width: 15px;
+    text-align: center;
+  }
+  .btn{
+    width: 73%;
+    height: 58%; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; /* Centexring content vertically */
+    justify-content: center;
+    color: black; /* Text color */
+    border: none;
+    background-color: transparent;
+  }
+  .btn:hover {
+    background-color: #ff0000; /* Darker color on hover */
+    cursor: pointer;
+  }
+  .btnClicked{
+    width: 73%;
+    height: 58%; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; /* Centexring content vertically */
+    justify-content: center;
+    color: black; /* Text color */
+    border: none;
+    background-color: black;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(6, 25px);
+    grid-template-rows: repeat(6, 35px);
+  }
+  
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000, #000) no-repeat center/2px 100%;
+    border-top:#000 solid;
+    border-width: 2px;
+    color: rgb(0, 16, 160);
+    
+  }
+  .right {
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #000 53%, transparent 50%) 100% 1;
+  }
+  .left {
+    border-top: 2px solid;
+    border-image: linear-gradient(to left, #000 53%, transparent 50%) 100% 1;
+  }
+  .bottom1{
+    border-bottom:#000 solid;
+    border-width: 2px;
+  }
+  .x-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px; /* Adjust size as needed */
+    color: transparent; /* Color of the "X" */
+    cursor: pointer;
+  }
+  .x-btn-clicked {
+    background-color: transparent;
+    border: none;
+    font-size: 24px; /* Adjust size as needed */
+    color: black; /* Color of the "X" */
+    cursor: pointer;
+  }
+  .x-btn:hover {
+    color: #ff0000; /* Color when hovering *//* Slightly enlarge on hover */
+  }
+  
+  .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom input{
+    width: 73%;
+    height: 58%; 
+    align-items: center; /* Centexring content vertically */
+    justify-content: center;
+    color: black; /* Text color */
+    background-color: transparent;
+    text-align: center;
+  }
+  #submit{
+    text-align: center;
+    left: 15px;
+    width: 50%;
+    
+  }
+  .top-1 { grid-column: 1; grid-row: 1; }
+  .top-2 { grid-column: 2; grid-row: 1; }
+  .top-3 { grid-column: 3; grid-row: 1; }
+  .top-4 { grid-column: 4; grid-row: 1; }
+  .top-5 { grid-column: 5; grid-row: 1; }
+  .top-6 { grid-column: 6; grid-row: 1; }
+  .item-1 { grid-column: 1; grid-row: 2; }
+  .item-2 { grid-column: 2; grid-row: 2; }
+  .item-3 { grid-column: 3; grid-row: 2; }
+  .item-4 { grid-column: 4; grid-row: 2; }
+  .item-5 { grid-column: 5; grid-row: 2; }
+  .item-6 { grid-column: 6; grid-row: 2; }
+  .item-7 { grid-column: 1; grid-row: 3; }
+  .item-8 { grid-column: 2; grid-row: 3; }
+  .item-9 { grid-column: 3; grid-row: 3; }
+  .item-10 { grid-column: 4; grid-row: 3; }
+  .item-11 { grid-column: 5; grid-row: 3; }
+  .item-12 { grid-column: 6; grid-row: 3; }
+  .item-13 { grid-column: 1; grid-row: 4; }
+  .item-14 { grid-column: 2; grid-row: 4; }
+  .item-15 { grid-column: 3; grid-row: 4; }
+  .item-16 { grid-column: 4; grid-row: 4; }
+  .item-17 { grid-column: 5; grid-row: 4; }
+  .item-18 { grid-column: 6; grid-row: 4; }
+  .item-19 { grid-column: 1; grid-row: 5; }
+  .item-20 { grid-column: 2; grid-row: 5; }
+  .item-21 { grid-column: 3; grid-row: 5; }
+  .item-22 { grid-column: 4; grid-row: 5; }
+  .item-23 { grid-column: 5; grid-row: 5; }
+  .item-24 { grid-column: 6; grid-row: 5; }
+
+  .bottom-1 { grid-column: 1; grid-row: 6; }
+  .bottom-2 { grid-column: 2; grid-row: 6; }
+  .bottom-3 { grid-column: 3; grid-row: 6; }
+  .bottom-4 { grid-column: 4; grid-row: 6; }
+  .bottom-5 { grid-column: 5; grid-row: 6; }
+  .bottom-6 { grid-column: 6; grid-row: 6; }

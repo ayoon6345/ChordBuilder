@@ -1,0 +1,147 @@
+@import url('bootstrap-icons/font/bootstrap-icons.css');
+#align{
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0 100px;
+  margin-left:5%;
+  margin-top:5%;
+}
+#chordsDisplay{
+    display: flex;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-start;
+
+  }
+  #chordBodyDisplay{
+    display: flex;
+    border:solid;
+   
+  }
+  #topContainer{
+    display:flex;
+  }
+  #delete {
+    
+
+    margin-top: 0;
+
+
+}
+  #nameDisplay{
+    position: relative;
+    margin: auto; 
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-left:solid;
+    border-right:solid;
+    border-top:solid;
+    width:72px;
+  }
+
+  .fretDisplay{
+    display: flex;
+    margin-top:17px;
+    height:fit-content;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 12px;
+    font-weight: bold;
+  }
+
+  .note{
+    width: 77%;
+    height: 65%; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; /* Centexring content vertically */
+    justify-content: center;
+    border: none;
+    background-color: black;
+  }
+
+  .containerDisplay {
+    display: grid;
+    grid-template-columns: repeat(6, 10px);
+    grid-template-rows: repeat(6, 14px);
+  }
+  
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000, #000) no-repeat center/2px 100%;
+    border-top:#000 solid;
+    border-width: 2px;
+    
+  }
+  .rightDisplay {
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #000 58%, transparent 50%) 100% 1;
+  }
+  .leftDisplay {
+    border-top: 2px solid;
+    border-image: linear-gradient(to left, #000 58%, transparent 50%) 100% 1;
+  }
+  .bottom1{
+    border-bottom:#000 solid;
+    border-width: 2px;
+  }
+
+  
+  .topDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .top-1 { grid-column: 1; grid-row: 1; }
+  .top-2 { grid-column: 2; grid-row: 1; }
+  .top-3 { grid-column: 3; grid-row: 1; }
+  .top-4 { grid-column: 4; grid-row: 1; }
+  .top-5 { grid-column: 5; grid-row: 1; }
+  .top-6 { grid-column: 6; grid-row: 1; }
+  .item-1 { grid-column: 1; grid-row: 2; }
+  .item-2 { grid-column: 2; grid-row: 2; }
+  .item-3 { grid-column: 3; grid-row: 2; }
+  .item-4 { grid-column: 4; grid-row: 2; }
+  .item-5 { grid-column: 5; grid-row: 2; }
+  .item-6 { grid-column: 6; grid-row: 2; }
+  .item-7 { grid-column: 1; grid-row: 3; }
+  .item-8 { grid-column: 2; grid-row: 3; }
+  .item-9 { grid-column: 3; grid-row: 3; }
+  .item-10 { grid-column: 4; grid-row: 3; }
+  .item-11 { grid-column: 5; grid-row: 3; }
+  .item-12 { grid-column: 6; grid-row: 3; }
+  .item-13 { grid-column: 1; grid-row: 4; }
+  .item-14 { grid-column: 2; grid-row: 4; }
+  .item-15 { grid-column: 3; grid-row: 4; }
+  .item-16 { grid-column: 4; grid-row: 4; }
+  .item-17 { grid-column: 5; grid-row: 4; }
+  .item-18 { grid-column: 6; grid-row: 4; }
+  .item-19 { grid-column: 1; grid-row: 5; }
+  .item-20 { grid-column: 2; grid-row: 5; }
+  .item-21 { grid-column: 3; grid-row: 5; }
+  .item-22 { grid-column: 4; grid-row: 5; }
+  .item-23 { grid-column: 5; grid-row: 5; }
+  .item-24 { grid-column: 6; grid-row: 5; }
+
+  .bottom-1 { grid-column: 1; grid-row: 6; }
+  .bottom-2 { grid-column: 2; grid-row: 6; }
+  .bottom-3 { grid-column: 3; grid-row: 6; }
+  .bottom-4 { grid-column: 4; grid-row: 6; }
+  .bottom-5 { grid-column: 5; grid-row: 6; }
+  .bottom-6 { grid-column: 6; grid-row: 6; }
